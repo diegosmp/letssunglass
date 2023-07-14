@@ -1,1 +1,1 @@
-![Site em construção](src/assets/site-em-construção.png)
+![Site em construção](src/assets/construction.png)
