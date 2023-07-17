@@ -1,12 +1,69 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-image: url('../assets/construction.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    max-width: 100%;
+    background-image: url('../assets/pattern-lets-sunglass.png');
+    background-size: contain;
+    backdrop-filter: blur(0.8px);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 7.8rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 22rem;
+    height: 24rem;
+    padding-top: 6rem;
+    background: rgba( 236, 236, 236, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.main > ul {
+    width: 75%;
+}
+
+.main ul > li {
+    margin-bottom: 1.5rem;
+    height: 2.2rem;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0.6rem;
+    background: #ececec;
+    border-radius: 10px;
+
+}
+
+.oculos-icon {
+    margin-right: 0.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.oculos-icon > img {
+    max-width:28px;
+    max-height:28px;
+    width: auto;
+    height: auto;
+}
+
+.main ul > li > a {
+    text-decoration: none;
 }
