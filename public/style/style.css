@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('../assets/pattern-lets-sunglass.png');
+    background-image: url('/public/img/pattern-lets-sunglass.png');
     background-size: contain;
     backdrop-filter: blur(0.8px);
 }
